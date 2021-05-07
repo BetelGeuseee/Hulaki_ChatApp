@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditingActivity"
+    android:background="@drawable/secondgradient">
+
+    <EditText
+
+        android:id="@+id/changeUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/changeRuns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Runs"
+        android:inputType="number"
+        android:layout_below="@+id/changeUsername"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/changeUsername"/>
+
+    <Button
+        android:id="@+id/runButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Runs"
+        android:layout_below="@+id/changeUsername"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/changeUsername"/>
+    <EditText
+        android:id="@+id/changeWicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Wickets"
+        android:inputType="number"
+        android:layout_below="@+id/runButton"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/changeUsername"/>
+
+    <Button
+        android:id="@+id/wicketButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wickets"
+        android:layout_below="@+id/runButton"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/changeUsername"/>
+    <EditText
+        android:id="@+id/changeMatches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Matches"
+        android:inputType="number"
+        android:layout_below="@+id/wicketButton"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/changeUsername"/>
+
+    <Button
+        android:id="@+id/matchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matches"
+        android:layout_below="@+id/wicketButton"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/changeUsername"/>
+
+    <TextView
+        android:id="@+id/tempoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Deleting your Account"
+        android:layout_marginTop="40dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/changeMatches"/>
+    <EditText
+        android:id="@+id/deleteUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/tempoo"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/changeUsername"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_below="@+id/tempoo"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/changeUsername"/>
+</RelativeLayout>

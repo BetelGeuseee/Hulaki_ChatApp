@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TeamSpartans</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="choose_your_position">Choose Your Position</string>
+    <string name="batsman">Batsman</string>
+    <string name="all_rounder">All-Rounder</string>
+    <string name="bowler">Bowler</string>
+    <string name="save">Save</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+</resources>
