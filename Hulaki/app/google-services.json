@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878168694019",
+    "project_id": "hulakiapp",
+    "storage_bucket": "hulakiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878168694019:android:a750f975dd8d5e94959d36",
+        "android_client_info": {
+          "package_name": "com.example.hulaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878168694019-2rsbo37c3h4e881eq71a2dtc5ck1r8nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjI3NSGCLrE4bLnOZ4HTCE_wUAmnOdXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878168694019-2rsbo37c3h4e881eq71a2dtc5ck1r8nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
